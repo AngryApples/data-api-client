@@ -1,5 +1,5 @@
 {
-  "name": "data-api-client",
+  "name": "data-api-client-xray",
   "version": "1.2.0",
   "description": "A lightweight wrapper that simplifies working with the Amazon Aurora Serverless Data API",
   "main": "index.js",
@@ -10,7 +10,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/jeremydaly/data-api-client.git"
+    "url": "git+https://github.com/AngryApples/data-api-client.git"
   },
   "keywords": [
     "serverless",
@@ -21,9 +21,9 @@
   "author": "Jeremy Daly <jeremy@jeremydaly.com>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/jeremydaly/data-api-client/issues"
+    "url": "https://github.com/AngryApples/data-api-client/issues"
   },
-  "homepage": "https://github.com/jeremydaly/data-api-client#readme",
+  "homepage": "https://github.com/AngryApples/data-api-client#readme",
   "devDependencies": {
     "aws-sdk": "^2.811.0",
     "eslint": "^6.8.0",
