@@ -14,7 +14,8 @@
 
 // Require the aws-sdk. This is a dev dependency, so if being used
 // outside of a Lambda execution environment, it must be manually installed.
-const AWS = require('aws-sdk')
+const AWSXRay = require('aws-xray-sdk');
+const AWS = AWSXRay.captureAWS(require('aws-sdk'));
 
 // Require sqlstring to add additional escaping capabilities
 const sqlString = require('sqlstring')
